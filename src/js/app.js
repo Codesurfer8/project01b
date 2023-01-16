@@ -1,4 +1,4 @@
-import loadGame, {GameSavingData, readGameSaving, writeGameSaving} from './game'
+import loadGame, {GameSavingData, readGameSaving  as loadGame, writeGameSaving  as saveGame} from './game'
 
 console.log('app worked')
 const game = new Game();
